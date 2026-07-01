@@ -18,7 +18,7 @@ namespace RegistrosChamadosTI
 		void BtnCadastrarClick(object sender, EventArgs e)
 		{
 			
-    		// 1. Validar campos vazios
+    		//ver campos vazios
    			if (string.IsNullOrWhiteSpace(txtNome.Text) || 
         	string.IsNullOrWhiteSpace(txtUsuario.Text) || 
         	string.IsNullOrWhiteSpace(txtSenha.Text))
@@ -33,7 +33,7 @@ namespace RegistrosChamadosTI
         	{
             	conexao.Open();
 
-            	// 2. Verificar se o usuário já existe
+            	// checar se usuário já existe
             	string queryVerificar = "SELECT COUNT(*) FROM usuarios WHERE usuario = @usuario";
             	using (MySqlCommand cmdVerificar = new MySqlCommand(queryVerificar, conexao))
             	{
@@ -47,7 +47,7 @@ namespace RegistrosChamadosTI
                 	}
             	}
 
-            	// 3. Inserir o novo usuário
+            	// criar novo usuário
             	string queryInserir = "INSERT INTO usuarios (nome, usuario, senha) VALUES (@nome, @usuario, @senha)";
             	using (MySqlCommand cmdInserir = new MySqlCommand(queryInserir, conexao))
             	{
@@ -60,10 +60,10 @@ namespace RegistrosChamadosTI
 
             	MessageBox.Show("Usuário cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            	// 4. Redirecionar para a TelaLogin
+            	// redirecionar para a TelaLogin
             	TelaLogin login = new TelaLogin();
             	login.Show();
-            	this.Hide(); // Esconde a tela atual
+            	this.Hide(); 
         		}
         	catch (Exception ex)
         	{
