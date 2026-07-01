@@ -5,12 +5,10 @@ Este repositório contém os projetos desenvolvidos para as atividades práticas
 ##  Sistemas Desenvolvidos
 
 ### 1. Sistema de Cadastro de Clientes com Login (Atividade Prática 01)
-* **Objetivo:** Controlar o acesso e o cadastro de clientes de uma empresa.
-* **Fluxo:** O funcionário realiza um cadastro inicial de conta no sistema, faz o login com suas credenciais e, após a validação bem-sucedida, ganha acesso à tela principal para gerenciar e cadastrar novos clientes (nome, telefone, e-mail, endereço e observações).
+* **Objetivo:** Controlar o acesso e o cadastro de clientes de uma empresa. O funcionário realiza um cadastro inicial de conta no sistema, faz o login com suas credenciais e, após a validação bem-sucedida, ganha acesso à tela principal para gerenciar e cadastrar novos clientes (nome, telefone, e-mail, endereço e observações).
 
 ### 2. Sistema de Registro de Chamados de TI (Atividade Prática 02)
-* **Objetivo:** Simular um sistema de suporte técnico corporativo para o controle básico de manutenção de equipamentos.
-* **Fluxo:** Permite o cadastro e login de usuários. Após autenticado, o atendente pode registrar novos chamados de TI informando o solicitante, o equipamento com defeito, a descrição do problema e o nível de prioridade (Baixa, Média, Alta ou Urgente).
+* **Objetivo:** Simular um sistema de suporte técnico corporativo para o controle básico de manutenção de equipamentos. Permite o cadastro e login de usuários. Após autenticado, o atendente pode registrar novos chamados de TI informando o solicitante, o equipamento com defeito, a descrição do problema e o nível de prioridade.
 
 ---
 
