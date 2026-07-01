@@ -18,7 +18,7 @@ namespace TelaCadastroUsuario
 		void BtnCadastrarClienteClick(object sender, EventArgs e)
 		{
 			
-    // Validação Obrigatória: não permite cadastrar sem Nome do Cliente e Telefone (Requisito da Atividade)
+    // não permite cadastrar sem Nome do Cliente e Telefone
     if (string.IsNullOrEmpty(txtNomeCliente.Text) || string.IsNullOrEmpty(txtTelefone.Text))
     {
         MessageBox.Show("Os campos Nome do Cliente e Telefone são obrigatórios!", "Aviso de Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -30,7 +30,7 @@ namespace TelaCadastroUsuario
         try
         {
             conexao.Open();
-            // Query SQL baseada nas colunas exatas da tabela 'clientes' do seu script
+            
             string query = "INSERT INTO clientes (nome_cliente, telefone, email, endereco, observacao) VALUES (@nome, @telefone, @email, @endereco, @observacao)";
             
             using (MySqlCommand comando = new MySqlCommand(query, conexao))
@@ -44,10 +44,10 @@ namespace TelaCadastroUsuario
                 
                 comando.ExecuteNonQuery(); // Grava no MySQL Workbench
                 
-                // Exibe MessageBox de sucesso solicitado
+                
                 MessageBox.Show("Cliente cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
-                // Limpa os campos da tela automaticamente após cadastrar
+                
                 LimparCampos();
             }
         }
