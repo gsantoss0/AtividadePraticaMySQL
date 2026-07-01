@@ -1,0 +1,11 @@
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\bin\Debug\TelaCadastroUsuario.exe.config
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\bin\Debug\TelaCadastroUsuario.exe
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\bin\Debug\TelaCadastroUsuario.pdb
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.csprojResolveAssemblyReference.cache
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.TelaLogin.resources
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.csproj.GenerateResource.Cache
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.exe
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.pdb
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.TelaCadastroCliente.resources
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\obj\Debug\TelaCadastroUsuario.TelaCadastroUsuario.resources
+C:\Users\TEMP.CENTRO40.048\Documents\SharpDevelop Projects\TelaCadastroUsuario\TelaCadastroUsuario\bin\Debug\MySql.Data.dll

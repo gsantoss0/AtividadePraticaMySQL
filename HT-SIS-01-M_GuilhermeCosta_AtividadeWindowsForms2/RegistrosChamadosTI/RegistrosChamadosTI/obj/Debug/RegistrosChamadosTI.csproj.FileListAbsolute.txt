@@ -1,0 +1,11 @@
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\bin\Debug\RegistrosChamadosTI.exe.config
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\bin\Debug\RegistrosChamadosTI.exe
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\bin\Debug\RegistrosChamadosTI.pdb
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\bin\Debug\MySql.Data.dll
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.csprojResolveAssemblyReference.cache
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.csproj.GenerateResource.Cache
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.exe
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.pdb
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.TelaCadastroChamado.resources
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.TelaLogin.resources
+C:\Users\TEMP.CENTRO40.049\Documents\SharpDevelop Projects\RegistrosChamadosTI\RegistrosChamadosTI\obj\Debug\RegistrosChamadosTI.TelaCadastroUsuario.resources
