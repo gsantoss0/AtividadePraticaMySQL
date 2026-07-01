@@ -17,7 +17,7 @@ namespace RegistrosChamadosTI
 		void BtnRegistrarChamadoClick(object sender, EventArgs e)
 		{
 			
-    	// 1. Validar regras obrigatórias de preenchimento
+    	// checar campos preenchidos
     	if (string.IsNullOrWhiteSpace(txtSolicitante.Text))
     	{
         	MessageBox.Show("Não permitir registrar chamado sem solicitante.", "Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -59,7 +59,7 @@ namespace RegistrosChamadosTI
 
             	MessageBox.Show("Chamado registrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
-            	// Limpar os campos após o sucesso
+            	
             	LimparCampos();
         	}
         	catch (Exception ex)
