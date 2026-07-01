@@ -19,7 +19,7 @@ namespace TelaCadastroUsuario
 		void BtnLoginClick(object sender, EventArgs e)
 		{
 			
-    // Validação: Não permite tentar logar com campos vazios
+   
     if (string.IsNullOrEmpty(txtUsuario.Text) || string.IsNullOrEmpty(txtSenha.Text))
     {
         MessageBox.Show("Por favor, digite o usuário e a senha.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -39,15 +39,15 @@ namespace TelaCadastroUsuario
                 comando.Parameters.AddWithValue("@usuario", txtUsuario.Text);
                 comando.Parameters.AddWithValue("@senha", txtSenha.Text);
                 
-                // Executa a query e converte o resultado em um número inteiro
+                
                 int resultado = Convert.ToInt32(comando.ExecuteScalar());
                 
                 if (resultado > 0)
                 {
-                    // Se achou o usuário (resultado = 1), abre a tela de cadastro de clientes
+                    
                     TelaCadastroCliente cadastroCliente = new TelaCadastroCliente();
                     cadastroCliente.Show();
-                    this.Hide(); // Esconde a tela de login
+                    this.Hide(); 
                 }
                 else
                 {
